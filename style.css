@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0turn;
+  inherits: true;
+}
+
+:root {
+  --angle: 0turn;
+  --dark-color: rgb(252, 196, 94);
+  --light-color: rgba(252, 196, 94, 0.3);
+}
